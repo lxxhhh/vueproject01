@@ -182,7 +182,7 @@ export default {
             this.type1Goods=response.data[1];
             this.type2Goods=response.data[2];
             this.type3Goods=response.data[3];
-
+ 
         }).catch(error => {
             console.log(error);
             alert('网络错误，不能访问');
